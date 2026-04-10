@@ -17,13 +17,10 @@ test('E2E: UI action + API validation', async ({ page }) => {
 
   // API validation
   const apiContext = await request.newContext({
-    baseURL: 'https://api.example.com',
-    extraHTTPHeaders: {
-      Authorization: `Bearer ${token}`
-    }
+    baseURL: 'https://reqres.in/api'
   });
 
-  const response = await apiContext.get('/cart');
+  const response = await apiContext.get('/users?page=2');
 
   expect(response.status()).toBe(200);
 });

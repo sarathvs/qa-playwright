@@ -6,5 +6,8 @@ module.exports = defineConfig({
     headless: true,
     baseURL: 'https://www.saucedemo.com'
   },
-  reporter: [['html', { open: 'never' }]],
+  reporter: [
+    ['list'],
+    ['allure-playwright']
+  ],
 });

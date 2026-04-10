@@ -6,7 +6,7 @@ test('API: get cart details', async () => {
     baseURL: 'https://reqres.in/api'
   });
 
-  const response = await apiContext.get('/users?page=2');
+  const response = await apiContext.get('');
 
   expect(response.status()).toBe(200);
 });

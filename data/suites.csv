@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","487","API: get cart details","","2026-04-11","passed","2026-04-11","","tests/api.spec.js","",""
+"","1092","E2E: UI action + API validation","","2026-04-11","passed","2026-04-11","","tests/e2e.spec.js","",""
+"","612","UI: login and add item to cart","","2026-04-11","passed","2026-04-11","","tests/ui.spec.js","",""
